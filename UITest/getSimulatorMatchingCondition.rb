@@ -7,7 +7,7 @@ require "json"
 deviceName = ARGV[0]
 # deviceNameArray = ["iPhone 8", "iPhone 13", "iPhone 13 Pro Max"]
 # runTime = ARGV[1]
-runTime = "15-4"
+runTime = "15-5"
 
 # simulator list를 json형식으로 저장합니다.
 json = JSON.parse(%x(xcrun simctl list 'devices' -j))
